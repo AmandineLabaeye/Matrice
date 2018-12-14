@@ -1,0 +1,35 @@
+.Carrer, .Rond, .Losange {
+    height: 100px;
+    width: 100px;
+    border: rebeccapurple solid;
+}
+
+.Rond {
+    border-radius: 50%;
+}
+
+#Losange {
+    -ms-transform: rotate(45deg); /* Internet Explorer */
+    -moz-transform: rotate(45deg); /* Firefox */
+    -webkit-transform: rotate(45deg); /* Safari et Chrome */
+    -o-transform: rotate(45deg); /* Opera */
+}
+
+.background {
+    background-color: darkblue;
+}
+
+#Ligne1, #Ligne2, #Ligne3, #Ligne4, #Ligne5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+#Bouton {
+    margin-left: 17%;
+}
+
+.Bouton {
+    margin-left: 15%;
+}
